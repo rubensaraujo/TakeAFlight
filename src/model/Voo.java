@@ -1,13 +1,15 @@
-package Model;
+package model;
 
-import java.util.Date;
+import java.util.Calendar;
+//import java.util.Date;
 
 public class Voo {
 	String origem;
 	String destino;
 	
 	float preco;
-	Date data;
+	Calendar data;
+	int capacidade;
 
 	
 	public String getOrigem() {
@@ -28,10 +30,10 @@ public class Voo {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
-	public Date getData() {
+	public Calendar getData() {
 		return data;
 	}
-	public void setData(Date data) {
+	public void setData(Calendar data) {
 		this.data = data;
 	}
 }

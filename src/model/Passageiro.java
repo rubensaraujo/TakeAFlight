@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import java.util.Calendar;
 import java.util.List;
@@ -20,7 +20,7 @@ public class Passageiro {
 		sobrenome = "";
 		dataNascimento = Calendar.getInstance();
 		cpf = "";
-	}
+	} 
 	
 	public String getNome() {
 		return nome;
