@@ -4,13 +4,14 @@ import java.util.Calendar;
 //import java.util.Date;
 
 public class Voo {
+	
 	String origem;
 	String destino;
-	
 	float preco;
-	Calendar data;
+	Calendar data_voo;
 	int capacidade;
 
+	
 	
 	public String getOrigem() {
 		return origem;
@@ -30,10 +31,16 @@ public class Voo {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
-	public Calendar getData() {
-		return data;
+	public Calendar getData_voo() {
+		return data_voo;
 	}
-	public void setData(Calendar data) {
-		this.data = data;
+	public void setData_voo(Calendar data_voo) {
+		this.data_voo = data_voo;
+	}
+	public int getCapacidade() {
+		return capacidade;
+	}
+	public void setCapacidade(int capacidade) {
+		this.capacidade = capacidade;
 	}
 }
